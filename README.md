@@ -14,6 +14,13 @@
 # Objetivo de la solución
 Elaborar en Pruebas de aceptación de software en entornos ágiles usando los servicios Api creados con Python
 
+## Introduccion 
+
+## Flask: 
+Flask es un marco de micro web para Python. Es fácil de usar y comenzar si eres nuevo en el desarrollo web.
+## Behave: 
+Behave es uno de los paquetes que puede usar para escribir código en forma BDD en Python. Implica escribir escenarios desde el punto de vista del usuario como si el usuario real estuviera interactuando con su sistema / sitio web / aplicación web. En general, estos se denominan pruebas de extremo a extremo.
+
 ## Implementación:
 
 ## Depliegue de Apis en Docker
