@@ -1,0 +1,7 @@
+
+
+pip freeze
+
+pip freeze > requeriments.txt
+
+doker build -t ApiResta

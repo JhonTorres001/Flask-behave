@@ -1,0 +1,8 @@
+
+
+pip freeze
+
+pip freeze > requeriments.txt
+
+crea una imagen apartir del proyecto
+docker build -t apiresta.
