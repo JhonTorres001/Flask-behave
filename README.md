@@ -13,3 +13,15 @@
 
 # Objetivo de la solución
 Elaborar en Pruebas de aceptación de software en entornos ágiles usando los servicios Api creados con Python
+
+## Implementación:
+
+- Depliegue de Apis en Docker
+
+- Features
+
+- Step
+
+- Prueba
+
+
