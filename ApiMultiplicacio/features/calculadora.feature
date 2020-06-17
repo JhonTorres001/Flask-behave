@@ -1,26 +1,16 @@
 Feature: The calculator
 
-Scenario Outline: Get sum total
-  Given a <values> to sum
-  When the calculator sum the values
-  Then the <total> of sum is correct
+Scenario Outline: Get mul total
+  Given a <values> to mul
+  When the calculator mul the values
+  Then the <total> of mul is correct
 
   Examples: values
   | values           | total |
-  | 8,1              | 9    |
-  | 0,9              | 9    |
-  | 19,9             | 28    |
- 
-Scenario Outline: Get rest total
-  Given a <values> to rest
-  When the calculator rest the values
-  Then the <total> of rest is correct
+  | 8,1              | 8    |
+  | 2,2              | 4    |
+  | 2,5             |  9    |
 
-  Examples: valuesclear
-  | values           | total |
-  | 8,1              | 7    |
-  | 3,9              | -6    |
-  | 19,9             | 9    |
 
 
 

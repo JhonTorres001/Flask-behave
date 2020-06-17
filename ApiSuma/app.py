@@ -6,13 +6,9 @@ app = Flask(__name__)
 
 @app.route('/Sumar')
 def Sumar():
-
-
-    video = get("http://localhost:7000/Sumar?num1=12&num2=4").json()
     num1=request.args.get("num1")
     num2=request.args.get("num2")
-
-
+    
     result = format(str(int(num1)+int(num2)))
     print(video["resultado"])
    

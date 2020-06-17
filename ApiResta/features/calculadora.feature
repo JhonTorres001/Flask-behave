@@ -1,9 +1,9 @@
 Feature: The calculator
 
-Scenario Outline: Get sum total
-  Given a <values> to sum
-  When the calculator sums the values
-  Then the <total> of sum is correct
+Scenario Outline: Get res total
+  Given a <values> to res
+  When the calculator res the values
+  Then the <total> of res is correct
 
   Examples: values
   | values           | total |

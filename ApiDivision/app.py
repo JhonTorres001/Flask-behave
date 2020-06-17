@@ -4,8 +4,8 @@ from requests import get
 
 app = Flask(__name__)
 
-@app.route('/Multiplicacion')
-def Sumar():
+@app.route('/Dividir')
+def Dividir():
 
     num1=request.args.get("num1")
     num2=request.args.get("num2")
